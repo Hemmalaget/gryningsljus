@@ -6,6 +6,7 @@ const HeroContainer = styled.div`
   height: 40%;
   max-height: 500px;
   min-height: 300px;
+  margin-top: 61px;
   overflow: auto;
   background: ${props => props.theme.main};
   display: flex;
