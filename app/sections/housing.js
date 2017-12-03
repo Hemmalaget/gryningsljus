@@ -2,8 +2,9 @@ import React from "react"
 import Section from "../components/section"
 import Title from "../components/title"
 import SubTitle from "../components/sub-title"
+import withTarget from "../decorators/with-target"
 
-export default () => (
+export const Housing = () => (
   <Section>
     <Title>Vårt boende</Title>
 
@@ -62,3 +63,5 @@ export default () => (
     </ul>
   </Section>
 )
+
+export default withTarget("boende")(Housing)

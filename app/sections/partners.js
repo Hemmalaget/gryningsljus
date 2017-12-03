@@ -3,8 +3,9 @@ import styled from "styled-components"
 import Section from "../components/section"
 import Title from "../components/title"
 import SubTitle from "../components/sub-title"
+import withTarget from "../decorators/with-target"
 
-export default () => (
+export const Partners = () => (
   <Section>
     <Title>Samarbetspartners</Title>
     <p>
@@ -21,3 +22,5 @@ export default () => (
     </p>
   </Section>
 )
+
+export default withTarget("partners")(Partners)

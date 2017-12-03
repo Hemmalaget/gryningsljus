@@ -2,8 +2,9 @@ import React from "react"
 import styled from "styled-components"
 import Section from "../components/section"
 import Title from "../components/title"
+import withTarget from "../decorators/with-target"
 
-export default () => (
+export const Footer = () => (
   <Section>
     <Title>Kontakt</Title>
     <p>Org.nr: 559033-1103</p>
@@ -21,3 +22,5 @@ export default () => (
     </p>
   </Section>
 )
+
+export default withTarget("kontakt")(Footer)

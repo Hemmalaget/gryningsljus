@@ -1,7 +1,8 @@
 import React from "react"
 import styled from "styled-components"
+import withTarget from "../decorators/with-target"
 
-const Hero = styled.div`
+const HeroContainer = styled.div`
   height: 40%;
   max-height: 500px;
   min-height: 300px;
@@ -18,6 +19,10 @@ const Title = styled.h1`
   margin: 0;
 `
 
-export default ({children}) => (
-  <Hero><Title>{ children }</Title></Hero>
+export const Hero = ({ children }) => (
+  <HeroContainer>
+    <Title>{children}</Title>
+  </HeroContainer>
 )
+
+export default withTarget("start")(Hero)

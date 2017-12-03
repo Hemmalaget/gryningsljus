@@ -1,8 +1,9 @@
 import React from "react"
 import Section from "../components/section"
 import ContactCard from "../components/contact-card"
+import withTarget from "../decorators/with-target"
 
-export default () => (
+export const Employees = () => (
   <Section>
     <ContactCard
       name="Per-Arne Hederstaf"
@@ -13,3 +14,5 @@ export default () => (
     />
   </Section>
 )
+
+export default withTarget("anställda")(Employees)
