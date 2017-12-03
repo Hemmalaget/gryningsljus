@@ -2,6 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import Section from "../components/section"
 import SubTitle from "../components/sub-title"
+import Quote from "../components/quote"
 
 const LetterFooter = styled.div`
   text-align: center;
@@ -40,14 +41,12 @@ export default () => (
 
     <p>Vi erbjuder utslussning i egen regi i form av sattelitlägenheter med boendestöd.</p>
 
-    <LetterFooter>
-      <p>Tveka inte att ta kontakt om du har frågor kring vår verksamhet.</p>
-
-      <p>Urban Stenberg, Föreståndare.</p>
-
-      <a>076 869 50 20</a>
-
-      <a>urban@gryningsljus.se</a>
-    </LetterFooter>
+    <Quote
+      quote="Tveka inte att ta kontakt om du har frågor kring vår verksamhet."
+      name="Per-Arne Hederstaf"
+      title="Verksamhetschef"
+      phone="076 869 50 50"
+      email="per-arne@hemmalaget.se"
+    />
   </Section>
 )
