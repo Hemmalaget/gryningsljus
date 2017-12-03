@@ -9,7 +9,7 @@ const Content = styled.div`
   max-width: 45rem;
   margin-left: auto;
   margin-right: auto;
-  overflow: auto;
+  overflow: initial;
 
   & > *:first-child {
     margin-top: 0;

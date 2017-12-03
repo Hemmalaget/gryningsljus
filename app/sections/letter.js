@@ -46,7 +46,7 @@ export default () => (
       name="Per-Arne Hederstaf"
       title="Verksamhetschef"
       phone="076 869 50 50"
-      email="per-arne@hemmalaget.se"
+      email="per-arne@gryningsljus.se"
     />
   </Section>
 )
