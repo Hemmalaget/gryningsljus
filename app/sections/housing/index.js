@@ -1,8 +1,12 @@
 import React from "react"
-import Section from "../components/section"
-import Title from "../components/title"
-import SubTitle from "../components/sub-title"
-import withTarget from "../decorators/with-target"
+import Section from "../../components/section"
+import Title from "../../components/title"
+import SubTitle from "../../components/sub-title"
+import withTarget from "../../decorators/with-target"
+import Carousel from "../../components/carousel"
+import kitchen from "./kitchen.jpg"
+import livingroom from "./livingroom.jpg"
+import room from "./room.jpg"
 
 export const Housing = () => (
   <Section>
@@ -61,6 +65,12 @@ export const Housing = () => (
         utvecklingsinriktat ledarskap där varje medarbetare kan utvecklas och påverka arbetet.
       </li>
     </ul>
+
+    <Carousel>
+      <img src={kitchen} />
+      <img src={livingroom} />
+      <img src={room} />
+    </Carousel>
   </Section>
 )
 
