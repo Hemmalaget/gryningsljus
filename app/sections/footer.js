@@ -45,13 +45,13 @@ export const Footer = () => (
         <tr>
           <td>Telefon: </td>
           <td>
-            <a href="tel:+46768695020">076 869 50 20</a>
+            <a href="tel:0768695000">076 869 50 00</a>
           </td>
         </tr>
         <tr>
           <td>E-post: </td>
           <td>
-            <a href="mailto:urban@gryningsljus.se">urban@gryningsljus.se</a>
+            <a href="mailto:info@gryningsljus.se">info@gryningsljus.se</a>
           </td>
         </tr>
         <tr>
