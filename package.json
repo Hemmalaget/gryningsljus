@@ -6,11 +6,16 @@
   "scripts": {
     "start": "webpack-dev-server --inline --hot --colors --host 0.0.0.0",
     "build": "webpack -p",
-    "test": "echo \"No tests yet\" && exit 0"
+    "storybook": "start-storybook -p 6006",
+    "test": "echo \"No tests yet\" && exit 0",
+    "build-storybook": "build-storybook"
   },
   "author": "Daniel Ström",
   "license": "MIT",
   "dependencies": {
+    "@storybook/addon-actions": "^3.2.17",
+    "@storybook/addon-links": "^3.2.17",
+    "@storybook/react": "^3.2.17",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-polyfill": "^6.26.0",
