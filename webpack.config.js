@@ -14,7 +14,7 @@ module.exports = {
     filename: "bundle.js"
   },
   module: {
-    loaders: [
+    rules: [
       { test: /\.jsx?$/, loader: "babel-loader", exclude: /node_modules/ },
       { test: /\.(png|jpg|gif)$/, loader: "file-loader", exclude: /node_modules/ }
     ]
