@@ -15,5 +15,6 @@ deploy:
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
   local_dir: dist
+  fqdn: gryningsljus.se
   on:
     branch: master
