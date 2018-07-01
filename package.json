@@ -1,54 +1,8 @@
 {
   "name": "gryningsljus",
-  "version": "1.0.0",
-  "description": "Static homepage for gryningsljus.se",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "start": "webpack-dev-server --inline --hot --colors --host 0.0.0.0",
-    "build": "webpack",
-    "storybook": "start-storybook -p 6006",
-    "test": "jest",
-    "build-storybook": "build-storybook"
-  },
-  "author": "Daniel Ström",
-  "license": "MIT",
-  "jest": {
-    "moduleNameMapper": {
-      "\\.(jpg|jpeg|png|gif)$": "<rootDir>/__mocks__/image-mock.js"
-    },
-    "setupFiles": [
-      "<rootDir>/.storybook/storyshots-setup.js"
-    ]
-  },
-  "dependencies": {
-    "@storybook/addon-actions": "^3.2.17",
-    "@storybook/addon-links": "^3.2.17",
-    "@storybook/addon-storyshots": "^3.2.17",
-    "@storybook/addons": "^3.2.17",
-    "@storybook/channels": "^3.2.17",
-    "@storybook/react": "^3.2.17",
-    "babel-core": "^6.26.0",
-    "babel-jest": "^22.4.1",
-    "babel-loader": "^7.1.2",
-    "babel-polyfill": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-react": "^6.24.1",
-    "babel-preset-stage-2": "^6.24.1",
-    "create-react-class": "^15.6.2",
-    "file-loader": "^1.1.5",
-    "html-webpack-plugin": "^3.0.4",
-    "jest": "^22.4.2",
-    "jest-cli": "^22.4.2",
-    "nuka-carousel": "^3.0.0",
-    "prettier": "^1.8.2",
-    "raf": "^3.4.0",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "react-test-renderer": "^16.2.0",
-    "regenerator-runtime": "^0.11.1",
-    "styled-components": "^3.1.6",
-    "webpack": "^4.0.1",
-    "webpack-cli": "^2.0.10",
-    "webpack-dev-server": "^3.1.0"
+    "start": "live-server ./public"
   }
 }
